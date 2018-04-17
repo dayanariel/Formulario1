@@ -1,0 +1,77 @@
+
+#caja1{
+
+  margin-left: 20%; 
+}
+
+body{
+  background:white;
+}
+
+form{
+  width: 65%;
+  margin: 0 auto;
+}
+label{
+  color: #000;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+}
+label:hover{
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+label[type="ultima"]{
+color: red;
+
+}
+input:hover{
+  color: blue;
+}
+input[type="text"]{
+  color: #000;
+  font-size: 18px;
+  width: 502px;
+  height: 30px;
+}
+input[type="name"]{
+  color: #000;
+  font-size: 18px;
+  width: 245px;
+  height: 30px;
+}
+input[type="text"]:focus{
+background: #d9f4f3;
+color: #000;
+font-size: 18px;
+}
+input[type="name"]:focus{
+background: #d9f4f3;
+color: #000;
+font-size: 18px;
+}
+select{
+ color: #000;
+ background: #BDBDBD;
+  font-size: 18px;
+  width: 505px;
+  height: 30px;
+
+}
+textarea{
+  color: #000;
+  font-size: 18px;
+  width: 500px;
+}
+textarea:focus{
+  background: #d9f4f3;
+  color: #000;
+}
+button, input[type="reset"]{
+  background: #0171bb;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
